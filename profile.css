@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Warp', cursive;
+}
+
+li, a, button, h1 {
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.nav-tabs {
+    list-style: none;
+}
+
+.nav-tabs li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-tabs li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-tabs li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 5px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
