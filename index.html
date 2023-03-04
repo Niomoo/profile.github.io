@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="profile.css">
+    <script src="https://kit.fontawesome.com/b882d0daa5.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -13,14 +14,14 @@
             <h1>Jenny Liu</h1>
             <ul class="nav-tabs">
                 <li><a href="#AboutMe">About me</a></li>
-                <li><a href="">Projects</a></li>
+                <li><a href="#Projects">Projects</a></li>
                 <li><a href="">Experiences</a></li>
                 <li><a href="">Skills</a></li>
             </ul>
             <a class="contact" href=""><button>Contact</button></a>
         </nav>
     </header>
-    <div id="#AboutMe" class="container">
+    <section id="AboutMe" class="container">
         <div class="pic">
             <img src="profile.jpg" alt="">
         </div>
@@ -31,6 +32,40 @@
             coordination, plan arrangement and execution ability. Recently, I put my time into deep learning research related to the
             medical image area. I’m always willing to learn and I possess excellent multitasking skills.</h3>
         </div>
-    </div>
+    </section>
+    <section id="Projects">
+        <h2 class="title">Projects</h2>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-route"></i>
+                <div class="item">
+                    <h4>An Intelligent travel route recommendation system based on text mining and data mining</h4>
+                </div>
+                <div class="content">
+                    <span>Used the techniques of text mining to discover recommended destinations from the website, analyze the real data from Smart Card and apply Apriori algorithm to get the relationship between MRT stations and attractions. Built a Line Bot related to this topic to make it more user-friendly.</span>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-atom"></i>
+                <div class="item">
+                    <h4>Visual platform for real-time training of artificial neural network</h4>
+                </div>
+                <div class="content">
+                    <span>Developed the training display API to make the training results display on the Ladder website and desktop application instantly. Modified the framework of worker level.</span>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-bed-pulse"></i>
+                <div class="item">
+                    <h4>IDH real-time monitoring system</h4>
+                </div>
+                <div class="content">
+                    <span>Fetch the real-time data from NCKUH.</span>
+                    <span>Monitor the patients' vital signal while doing dehydration. Display the data for the registered professional nursing staff and predict IDH rate.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 </body>
 </html>
