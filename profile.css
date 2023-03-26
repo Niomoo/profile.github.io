@@ -120,7 +120,7 @@ h3 {
 
 .card {
     height: 450px;
-    width: 400px;
+    width: 360px;
     padding: 25px 30px;
     margin: 30px;
     background-color: #ffffff;
@@ -144,7 +144,7 @@ h3 {
 
 .card .content {
     text-align: justify;
-    width: 390px;
+    width: 350px;
     height: 210px;
     display: flex;
     align-items: center;
