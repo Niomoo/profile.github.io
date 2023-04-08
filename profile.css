@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 *, body {
     margin: 0;
     padding: 0;
@@ -65,12 +69,18 @@ button:hover {
 }
 
 section {
-    min-height: 550px;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #AboutMe {
     padding: 5em 0em;
     background-color: #f3efec;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .container {
@@ -196,6 +206,7 @@ h3 {
     margin: 1em;
     background-color: #ffffff;
     border-radius: 2em;
+    transition: all 0.5s ease;
 }
 
 .card i {
@@ -243,6 +254,16 @@ h3 {
     border: 2px solid #1a9fac;
 }
 
+.card:hover {
+    background-color: #028894;
+    color: #ffffff;
+    transform: translateY(-10px);
+}
+
+.card:hover i {
+    color: #ffffff;
+}
+
 #Abilities {
     padding: 2.4em 5em;
     text-align: center;
@@ -262,14 +283,16 @@ h3 {
     justify-content: space-between;
     margin: 1em 0em;
     font-size: 20px;
+    font-weight: light;
+    cursor: default;
 }
 
 .skill div dl:hover dt {
-    font-size: 22px;
+    font-weight: bold;
 }
 
 .skill div dl:hover dd{
-    color: #ffda22;
+    color: #ffd622;
 }
 
 .skill-group h2 {
@@ -278,7 +301,7 @@ h3 {
     font-weight: bolder;
 }
 
-#ContactMe {
+#Contact {
     padding: 1em;
     display: flex;
     justify-content: center;
@@ -314,3 +337,4 @@ h3 {
     text-decoration: none;
     color: #000000;
 }
+
